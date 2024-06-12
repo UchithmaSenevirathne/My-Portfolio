@@ -64,8 +64,9 @@
     .menu .list ul{
         position: absolute;
         top: 80px;
-        left: 50px;
+        left: 0px;
         right: 0;
+        padding-left: 50px;
         flex-direction: column;
         background-color: white;
         overflow: hidden;
@@ -89,14 +90,14 @@
     justify-content: center;
     padding: 100px 40px;
     margin: 0 189.5px;
-    position: relative;
+    /* position: relative; */
 }
 
 .home-container .text-content{
     display: flex;
     flex-direction: column;
     padding-right: 50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .home-container .text-content h6{
