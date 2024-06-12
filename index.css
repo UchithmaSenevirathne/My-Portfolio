@@ -52,6 +52,8 @@
     color: #FF4522;
 }
 
+/* ==========responsive navbar====================== */
+
 @media (max-width:600px) {
 
     .navbar{
@@ -156,5 +158,57 @@
 .img-container div > img {
     width: 350px;
     border-radius: 10px;
+}
+
+/* ==============responsive home============================ */
+
+@media (max-width:1469px) {
+    .home-container .text-content .position{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .home-container .text-content h6{
+        margin-bottom: 10px;
+    }  
+    
+    .service1 p {
+        padding: 6px 0;
+    }
+
+    .img-container div > img {
+        width: 300px;
+    }
+}
+
+@media (max-width:925px) {
+    .home-container{
+        flex-direction: column-reverse;
+        padding: 50px 40px;
+        margin: 0;
+    }
+
+    .img-container div{
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    .img-container div > img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:449px){
+    .home-container .text-content .position{
+        font-size: 30px;
+    }
+
+    .counts {
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 0px;
+    }
 }
 
