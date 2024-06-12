@@ -5,6 +5,8 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* =================navbar========================= */
+
 .navbar{
     display: flex;
     padding: 30px 37px 30px 50px;
@@ -83,12 +85,16 @@
 .home-container{
     display: flex;
     justify-content: center;
-    padding: 0 40px;
+    padding: 100px 40px;
+    margin: 0 189.5px;
+    position: relative;
 }
 
 .home-container .text-content{
     display: flex;
     flex-direction: column;
+    padding-right: 50px;
+    position: relative;
 }
 
 .home-container .text-content h6{
@@ -98,20 +104,57 @@
     margin-bottom: 16px;
 }
 
-.home-container .text-content h1{
+.home-container .text-content .position{
     font-size: 45px;
     margin-bottom: 25px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .home-container .text-content div{
     display: flex;
 }
 
+.service1 {
+    display: flex;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    align-items: center;
+    gap: 10px;
+}
+
+.service1 p {
+    padding: 8px 0;
+}
+
+.counts {
+    margin-top: 25px;
+    gap: 50px;
+}
+
+.counts div{
+    display: flex;
+    align-items: center;
+}
+
+.counts div > h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.counts div > p {
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: "Mulish", sans-serif;
+    color: #767676;
+}
+
 .img-container div{
     width: 50%;
+    padding-left: 200px;
 }
 
 .img-container div > img {
-    width: 300px;
+    width: 350px;
+    border-radius: 10px;
 }
+
