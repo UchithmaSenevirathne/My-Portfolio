@@ -190,7 +190,7 @@
 @media (max-width:925px) {
     .home-container{
         flex-direction: column-reverse;
-        padding: 50px 40px;
+        padding: 50px 30px;
         margin: 0;
     }
 
@@ -215,6 +215,10 @@
         flex-direction: column;
         margin-top: 15px;
         gap: 0px;
+    }
+
+    .home-container{
+        padding: 50px 30px;
     }
 }
 
