@@ -12,65 +12,70 @@
 <body>
 
     <!-- ======================navbar=================================== -->
-
-    <div class="navbar">
-        <div class="logo">
-            <a href="#">UCHEE</a>
-        </div>
-        <div class="menu">
-            <div class="list">
-                <ul id="menu-list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Timeline</a></li>
-                    <li><a href="">Timeline</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <div class="trigger">
-                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    <header>
+        <div class="navbar" id="nav">
+            <div class="logo">
+                <a href="#">UCHEE</a>
+            </div>
+            <div class="menu">
+                <div class="list">
+                    <ul id="menu-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Skills</a></li>
+                        <li><a href="">Timeline</a></li>
+                        <li><a href="">Timeline</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="trigger">
+                        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    
 
     <!-- ===================home====================================== -->
 
-    <div class="home-container" id="home">
-        <div class="text-content">
-            <h6>Uchithma Senevirathne</h6>
-            <h1 class="position">FULLSTACK DEVELOPER 
-                <span>BASED IN SRILANKA</span>
-            </h1>
-            <div class="service1">
-                <p>Web Developmet</p>
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-            <div class="service1">
-                <p>Web Developmet</p>
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-            <div class="service1">
-                <p>Web Developmet</p>
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-            <div class="counts">
-                <div>
-                    <h1>2+</h1>
-                    <p>Years of Experience</p>
+    <section class="home">
+        <div class="home-container" id="home">
+            <div class="text-content">
+                <h6>Uchithma Senevirathne</h6>
+                <h1 class="position">FULLSTACK DEVELOPER 
+                    <span>BASED IN SRILANKA</span>
+                </h1>
+                <div class="service1">
+                    <p>Web Developmet</p>
+                    <i class="fa-solid fa-arrow-right"></i>
                 </div>
+                <div class="service1">
+                    <p>Web Developmet</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="service1">
+                    <p>Web Developmet</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="counts">
+                    <div>
+                        <h1>2+</h1>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div>
+                        <h1>3K+</h1>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
                 <div>
-                    <h1>3K+</h1>
-                    <p>Happy Customers</p>
+                    <img src="./assets/profile.jpeg" alt="">
                 </div>
             </div>
         </div>
-        <div class="img-container">
-            <div>
-                <img src="./assets/profile.jpeg" alt="">
-            </div>
-        </div>
-    </div>
+    </section>
+    
 
     <script>
         let menuList = document.getElementById("menu-list")
@@ -84,6 +89,13 @@
                 menuList.style.maxHeight = "0px"
             }
         }
+    </script>
+
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
     </script>
 </body>
 </html>

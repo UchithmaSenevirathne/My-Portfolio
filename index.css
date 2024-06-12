@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background-color: #F9F9F9;
 }
 
 /* =================navbar========================= */
@@ -86,11 +85,16 @@
 
 /* =======================home====================================== */
 
+.home {
+    background-color: #F9F9F9;    
+}
+
 .home-container{
     display: flex;
     justify-content: center;
     padding: 100px 40px;
     margin: 0 189.5px;
+    align-items: center;
     /* position: relative; */
 }
 
