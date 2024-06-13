@@ -280,4 +280,8 @@
     .port-container .project-container .port3{
         display: none;
     }
+
+    .port-container .project-container div > img {
+        width: 525px;
+    }
 }
