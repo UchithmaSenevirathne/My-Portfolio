@@ -315,6 +315,10 @@
 
 /* ======================skills================================== */
 
+.Skills{
+    padding: 100px 0px;
+}
+
 .skills-container {
     background: url(./assets/skillsbg.png);
     width: 100vw;
