@@ -396,3 +396,13 @@
         padding-top: 60px;
     }
 }
+
+@media (max-width:511px) {
+    .skills-container {
+        padding-top: 40px;
+    }
+
+    .skills-container .skills-logo img {
+        width: 40px;
+    }
+}
