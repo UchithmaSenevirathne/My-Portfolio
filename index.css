@@ -93,7 +93,7 @@
     display: flex;
     justify-content: center;
     padding: 100px 40px;
-    margin: 0 189.5px;
+    margin: 0 270px;
     align-items: center;
     /* position: relative; */
 }
@@ -221,4 +221,7 @@
         padding: 50px 30px;
     }
 }
+
+/* =================portfolio============================================= */
+
 
