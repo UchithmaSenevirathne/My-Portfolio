@@ -293,3 +293,9 @@
         width: 900px;
     }
 }
+
+@media (max-width:950px) {
+    .port-container .project-container div > img {
+        width: 325px;
+    }
+}
