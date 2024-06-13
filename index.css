@@ -224,4 +224,33 @@
 
 /* =================portfolio============================================= */
 
+.port-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 40px;
+    margin: 0 270px;
+}
 
+.port-container .text-content h6{
+    font-size: 16px;
+    color: #FF4522;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.port-container .text-content h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.port-container .project-container {
+    display: flex;
+    margin-top: 92px;
+    justify-content: space-between;
+}
+
+.port-container .project-container div > img {
+    width: 350px;
+    border-radius: 10px;
+}
