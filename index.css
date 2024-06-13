@@ -327,7 +327,10 @@
     object-fit: cover;
     display: flex;
     justify-content: center;
-    padding: 100px 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 17%;
+    padding-right: 17%;
     gap: 50px;
 }
 
@@ -354,18 +357,21 @@
 }
 
 .skills-container .dark-image img {
-    width: 400px;
+    width: 100%;
 }
 
 .skills-container .skills-logo {
     margin-top: 50px;
-    margin-right: 75px;
+    /* margin-right: 75px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     gap: 40px;
 }
 
 .skills-container .skills-logo img {
     width: 50px;
 }
+
+/* ==========responsive skills============================ */
+
