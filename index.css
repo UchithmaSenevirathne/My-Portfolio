@@ -312,3 +312,13 @@
         width: 90vw;
     }
 }
+
+/* ======================skills================================== */
+
+.skills-container {
+    background: url(./assets/skillsbg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+}
