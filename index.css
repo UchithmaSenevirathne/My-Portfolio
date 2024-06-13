@@ -379,4 +379,8 @@
     .skills-container .dark-image {
        display: none;
     }
+
+    .skills-container .skills-logo img {
+        width: 60px;
+    }
 }
