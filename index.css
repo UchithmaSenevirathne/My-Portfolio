@@ -269,4 +269,9 @@
     .port-container .text-content{
         width: 1090px;
     }
+
+    .port-container .project-container div > img {
+        width: 325px;
+    }
+
 }
