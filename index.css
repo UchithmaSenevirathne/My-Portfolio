@@ -228,8 +228,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 40px;
-    margin: 0 270px;
+    /* padding: 100px 40px;
+    margin: 0 270px; */
+    padding: 140px 0 138px;
+    position: relative;
+    align-items: center;
+}
+
+.port-container .text-content{
+    width: 1170px;
 }
 
 .port-container .text-content h6{
@@ -247,10 +254,13 @@
 .port-container .project-container {
     display: flex;
     margin-top: 92px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
 }
 
 .port-container .project-container div > img {
     width: 350px;
     border-radius: 10px;
 }
+
+/* ======responsive portfolio=================== */
