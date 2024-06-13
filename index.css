@@ -282,10 +282,14 @@
     }
 
     .port-container .project-container div > img {
-        width: 525px;
+        width: 425px;
     }
 
     .port-container .project-container {
         gap: 50px;
+    }
+
+    .port-container .text-content{
+        width: 900px;
     }
 }
