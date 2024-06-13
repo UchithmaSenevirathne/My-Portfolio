@@ -358,6 +358,8 @@
 }
 
 .skills-container .skills-logo {
+    margin-top: 50px;
+    margin-right: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
