@@ -390,3 +390,9 @@
         width: 45px;
     }
 }
+
+@media (max-width:583px) {
+    .skills-container {
+        padding-top: 60px;
+    }
+}
