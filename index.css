@@ -298,4 +298,8 @@
     .port-container .project-container div > img {
         width: 325px;
     }
+
+    .port-container .text-content{
+        width: 700px;
+    }
 }
