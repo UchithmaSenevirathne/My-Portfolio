@@ -257,7 +257,7 @@
 .port-container .project-container{
     padding-top: 92px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .port-container .project-container div {
@@ -269,3 +269,46 @@
     border-radius: 10px;
 }
 /* ======responsive portfolio=================== */
+
+@media (max-width:1469px) {
+    .port-container .text-content{
+        width: 910px;
+    }
+
+    .port-container .project-container div > img {
+        width: 290px;
+    }
+}
+
+@media (max-width:925px) {
+    .port-container .text-content{
+        width: 93vw;
+    }
+
+    .port-container .project-container .port3 {
+        display: none;
+    }
+
+    .port-container .project-container div > img {
+        width: 45vw;
+    }
+}
+
+@media (max-width:620px) {
+    .port-container {
+        padding: 100px 0px;
+        margin: 0 0px;
+    }
+
+    .port-container .text-content{
+        width: 90vw;
+    }
+
+    .port-container .project-container .port2 {
+        display: none;
+    }
+
+    .port-container .project-container div > img {
+        width: 90vw;
+    }
+}
