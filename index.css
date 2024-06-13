@@ -344,3 +344,13 @@
     font-size: 30px;
     color: white;
 }
+.skills-container .text-content p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    color: #bbbb;
+}
+
+.skills-container .dark-image img {
+    width: 50%;
+}
