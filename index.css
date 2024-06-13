@@ -275,3 +275,9 @@
     }
 
 }
+
+@media (max-width:1200px) {
+    .port-container .project-container .port3{
+        display: none;
+    }
+}
