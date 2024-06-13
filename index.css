@@ -238,4 +238,8 @@
     /* align-items: center; */
 }
 
+.port-container .text-content{
+    width: 1170px;
+}
+
 /* ======responsive portfolio=================== */
