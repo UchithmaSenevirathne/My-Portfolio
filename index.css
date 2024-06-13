@@ -322,11 +322,13 @@
 .skills-container {
     background: url(./assets/skillsbg.png);
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     object-fit: cover;
     display: flex;
     justify-content: center;
+    padding: 100px 300px;
+    gap: 50px;
 }
 
 .skills-container .text-content {
@@ -352,5 +354,5 @@
 }
 
 .skills-container .dark-image img {
-    width: 50%;
+    width: 400px;
 }
