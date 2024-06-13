@@ -375,3 +375,8 @@
 
 /* ==========responsive skills============================ */
 
+@media (max-width:1238px) {
+    .skills-container .dark-image {
+       display: none;
+    }
+}
