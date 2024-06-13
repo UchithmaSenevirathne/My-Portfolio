@@ -224,82 +224,18 @@
 
 /* =================portfolio============================================= */
 
-.port-container{
+.portfolio {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.port-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding: 100px 40px;
-    margin: 0 270px; */
-    padding: 140px 0 138px;
-    position: relative;
-    align-items: center;
-}
-
-.port-container .text-content{
-    width: 1170px;
-}
-
-.port-container .text-content h6{
-    font-size: 16px;
-    color: #FF4522;
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-
-.port-container .text-content h1{
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.port-container .project-container {
-    display: flex;
-    margin-top: 92px;
-    justify-content: center;
-    gap: 60px;
-}
-
-.port-container .project-container div > img {
-    width: 350px;
-    border-radius: 10px;
+    padding: 100px 40px;
+    margin: 0 270px;
+    /* align-items: center; */
 }
 
 /* ======responsive portfolio=================== */
-
-@media (max-width:1300px) {
-    .port-container .text-content{
-        width: 1090px;
-    }
-
-    .port-container .project-container div > img {
-        width: 325px;
-    }
-
-}
-
-@media (max-width:1200px) {
-    .port-container .project-container .port3{
-        display: none;
-    }
-
-    .port-container .project-container div > img {
-        width: 425px;
-    }
-
-    .port-container .project-container {
-        gap: 50px;
-    }
-
-    .port-container .text-content{
-        width: 900px;
-    }
-}
-
-@media (max-width:950px) {
-    .port-container .project-container div > img {
-        width: 325px;
-    }
-
-    .port-container .text-content{
-        width: 700px;
-    }
-}
