@@ -421,3 +421,18 @@
     }
     
 }
+
+@media (max-width:424px) {
+    .skills-container {
+        padding-top: 40px;
+    }
+
+    .skills-container .skills-logo img {
+        width: 35px;
+    }
+
+    .skills-container .skills-logo {
+        gap: 30px;
+    }
+    
+}
