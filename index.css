@@ -235,11 +235,37 @@
     justify-content: center;
     padding: 100px 40px;
     margin: 0 270px;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .port-container .text-content{
-    width: 1170px;
+    width: 1005px;
 }
 
+.port-container .text-content h6{
+    font-size: 16px;
+    color: #FF4522;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.port-container .text-content h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.port-container .project-container{
+    padding-top: 92px;
+    display: flex;
+    gap: 20px;
+}
+
+.port-container .project-container div {
+    width: 50%;
+}
+
+.port-container .project-container div > img {
+    width: 325px;
+    border-radius: 10px;
+}
 /* ======responsive portfolio=================== */
