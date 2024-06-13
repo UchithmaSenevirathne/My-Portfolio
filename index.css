@@ -264,3 +264,9 @@
 }
 
 /* ======responsive portfolio=================== */
+
+@media (max-width:1300px) {
+    .port-container .text-content{
+        width: 1090px;
+    }
+}
