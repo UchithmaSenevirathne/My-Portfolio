@@ -284,4 +284,8 @@
     .port-container .project-container div > img {
         width: 525px;
     }
+
+    .port-container .project-container {
+        gap: 50px;
+    }
 }
