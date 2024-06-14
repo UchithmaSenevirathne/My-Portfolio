@@ -361,6 +361,7 @@
     /* width: 100%; */
     width: 434px;
     height: 638px;
+    object-fit: contain;
 
 }
 
