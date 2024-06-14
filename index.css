@@ -680,3 +680,20 @@
     align-items: center;
     gap: 20px;
 }
+
+/* ================responsive footer============================== */
+
+@media (max-width:1200px) {
+    .foot-content {
+        width: 90%;
+    }
+}
+
+@media (max-width:900px) {
+    .foot-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
