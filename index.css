@@ -331,7 +331,7 @@
     padding-bottom: 100px;
     padding-left: 17%;
     padding-right: 17%;
-    gap: 50px;
+    gap: 60px;
 }
 
 .skills-container .text-content {
@@ -354,17 +354,18 @@
     font-size: 16px;
     font-family: "Mulish", sans-serif;
     color: #bbbb;
+    line-height: 2;
 }
 
 .skills-container .dark-image img {
     /* width: 100%; */
-    width: 448px;
-    height: 634px;
+    width: 434px;
+    height: 638px;
 
 }
 
 .skills-container .skills-logo {
-    margin-top: 50px;
+    margin-top: 40px;
     /* margin-right: 75px; */
     display: flex;
     flex-wrap: wrap;
@@ -373,7 +374,7 @@
 }
 
 .skills-container .skills-logo img {
-    width: 50px;
+    width: 10%;
 }
 
 /* ==========responsive skills============================ */
