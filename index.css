@@ -158,12 +158,23 @@
 
 .img-container div{
     width: 50%;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 
 .img-container div > img {
     width: 350px;
     border-radius: 10px;
+    transform: rotate(8deg);
+}
+
+.img-container div::before {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 460px;
+    background: #FF4522;
+    border-radius: 10px;
+    transform: rotate(-8deg);
 }
 
 /* ==============responsive home============================ */
@@ -185,6 +196,11 @@
     .img-container div > img {
         width: 300px;
     }
+
+    .img-container div::before {
+        width: 300px;
+        height: 400px;
+    }
 }
 
 @media (max-width:925px) {
@@ -203,6 +219,11 @@
     .img-container div > img {
         width: 100%;
         border-radius: 10px;
+        transform: rotate(0deg);
+    }
+
+    .img-container div::before {
+        display: none;
     }
 }
 
@@ -268,6 +289,7 @@
     width: 325px;
     border-radius: 10px;
 }
+
 /* ======responsive portfolio=================== */
 
 @media (max-width:1469px) {
@@ -360,7 +382,7 @@
 .skills-container .dark-image img {
     /* width: 100%; */
     width: 434px;
-    height: 638px;
+    height: 700px;
     object-fit: contain;
 
 }
