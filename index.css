@@ -460,3 +460,9 @@
 .time-head {
     width: 1070px;
 }
+
+.time-head h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF4522;
+}
