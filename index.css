@@ -498,3 +498,11 @@
 .time-content .time p:nth-child(1), p:nth-child(3) {
     color: #767676;
 }
+
+/* ==================responsive timeline===================== */
+
+@media (max-width:1140px) {
+    .timeline-container{
+        width: 90%;
+    }
+}
