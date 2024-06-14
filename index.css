@@ -554,6 +554,13 @@
     flex-direction: column;
 }
 
+.con-text h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF4522;
+    margin-bottom: 10px;
+}
+
 .con-list div {
     display: flex;
     align-items: center;
