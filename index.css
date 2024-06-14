@@ -493,3 +493,7 @@
     float: left;
     padding-right: 40px;
 }
+
+.time-content .time p:nth-child(1), p:nth-child(3) {
+    color: #767676;
+}
