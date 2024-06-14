@@ -666,3 +666,9 @@
     color: white;
     padding: 28px 0 32px;
 }
+
+.foot-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+}
