@@ -472,3 +472,9 @@
     font-size: 30px;
     font-weight: bolder;
 }
+
+.time-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 54px;
+}
