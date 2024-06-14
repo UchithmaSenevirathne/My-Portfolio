@@ -458,7 +458,8 @@
 }
 
 .time-head {
-    width: 1070px;
+    /* width: 1070px; */
+    width: 100%;
 }
 
 .time-head h6 {
@@ -480,5 +481,9 @@
 }
 
 .time-content .time {
-    width: 1070px;
+    /* width: 1070px; */
+    width: 100%;
+    display: flex;
+    padding: 27px 0;
+    font-size: 18px;
 }
