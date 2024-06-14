@@ -674,3 +674,9 @@
     font-size: 16px;
     font-family: "Mulish", sans-serif;
 }
+
+.foot-content div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
