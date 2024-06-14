@@ -637,3 +637,15 @@
 .contact-forms div > i {
     color: white;
 }
+
+/* =================responsive contact==================== */
+
+@media (max-width:1200px) {
+    .con-head {
+        width: 90%;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+}
