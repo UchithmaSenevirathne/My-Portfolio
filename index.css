@@ -536,17 +536,37 @@
 .contact {
     padding: 100px 0;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.con-head {
+    width: 1070px;
+}
+
+.con-head h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF4522;
+    margin-bottom: 10px;
+}
+
+.con-head h1 {
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .contact-container {
     display: flex;
     justify-content: center;
+    width: 1070px;
 }
 
 .contact-content {
     display: flex;
     flex-direction: column;
+    padding-right: 100px;
 }
 
 .con-text, .con-list {
@@ -554,16 +574,10 @@
     flex-direction: column;
 }
 
-.con-text h6 {
+.con-text p {
     font-size: 16px;
-    font-weight: 500;
-    color: #FF4522;
-    margin-bottom: 10px;
-}
-
-.con-text h1 {
-    font-size: 30px;
-    font-weight: bolder;
+    color: #767676;
+    font-family: "Mulish", sans-serif;
 }
 
 .con-list div {
