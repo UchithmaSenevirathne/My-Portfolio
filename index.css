@@ -316,7 +316,7 @@
 /* ======================skills================================== */
 
 .Skills{
-    padding: 100px 0px;
+    padding: 100px 0px 20px;
 }
 
 .skills-container {
@@ -430,6 +430,8 @@
 @media (max-width:424px) {
     .skills-container {
         padding-top: 40px;
+        height: 100vh;
+        align-items: center;
     }
 
     .skills-container .skills-logo img {
@@ -438,6 +440,10 @@
 
     .skills-container .skills-logo {
         gap: 30px;
+    }
+
+    .skills-container .text-content p {
+        line-height: 1.5;
     }
     
 }
