@@ -376,6 +376,7 @@
 
 .skills-container .skills-logo img {
     width: 10%;
+    opacity: 50%;
 }
 
 /* ==========responsive skills============================ */
