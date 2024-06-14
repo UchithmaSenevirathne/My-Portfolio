@@ -561,6 +561,11 @@
     margin-bottom: 10px;
 }
 
+.con-text h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
 .con-list div {
     display: flex;
     align-items: center;
