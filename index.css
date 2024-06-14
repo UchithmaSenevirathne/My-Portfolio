@@ -478,3 +478,7 @@
     flex-direction: column;
     padding-top: 54px;
 }
+
+.time-content .time {
+    width: 1070px;
+}
