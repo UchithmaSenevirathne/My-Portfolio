@@ -485,4 +485,11 @@
     display: flex;
     padding: 27px 0;
     font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+
+.time-content .time p {
+    width: 33.3333%;
+    float: left;
+    padding-right: 40px;
 }
