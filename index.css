@@ -539,6 +539,7 @@
     /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+    background-color: #F9F9F9;
 }
 
 .con-head {
