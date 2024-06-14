@@ -656,3 +656,13 @@
         gap: 50px;
     }
 }
+
+/* ===========footer============================================ */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 28px 0 32px;
+}
