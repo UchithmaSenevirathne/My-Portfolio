@@ -357,7 +357,10 @@
 }
 
 .skills-container .dark-image img {
-    width: 100%;
+    /* width: 100%; */
+    width: 448px;
+    height: 634px;
+
 }
 
 .skills-container .skills-logo {
@@ -436,3 +439,5 @@
     }
     
 }
+
+/* =============timeline========================================== */
