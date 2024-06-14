@@ -581,9 +581,15 @@
     font-family: "Mulish", sans-serif;
 }
 
+.con-list {
+    margin-top: 40px;
+    gap: 20px;
+}
+
 .con-list div {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .contact-forms {
