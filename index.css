@@ -466,3 +466,8 @@
     font-weight: 500;
     color: #FF4522;
 }
+
+.time-head h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
