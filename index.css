@@ -543,3 +543,28 @@
     display: flex;
     justify-content: center;
 }
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-text, .con-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-list div {
+    display: flex;
+    align-items: center;
+}
+
+.contact-forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-forms div {
+    display: flex;
+    align-items: center;
+}
