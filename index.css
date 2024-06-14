@@ -445,8 +445,10 @@
 /* =============timeline========================================== */
 
 .timeline {
-    padding: 100px 40px;
-    margin: 0 270px;
+    padding: 100px 0px;
+    /* margin: 0 270px; */
+    display: flex;
+    justify-content: center;
 }
 
 .timeline-container {
