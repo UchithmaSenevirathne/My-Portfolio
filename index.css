@@ -456,3 +456,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.time-head {
+    width: 1070px;
+}
