@@ -514,5 +514,13 @@
 @media (max-width:770px) {
     .time-content .time {
         flex-direction: column;
+        gap: 20px;
     }
+
+    .time-content .time p {
+        width: 100%;
+        float: left;
+        padding-right: 0px;
+    }
+    
 }
