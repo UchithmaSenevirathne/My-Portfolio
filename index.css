@@ -505,4 +505,8 @@
     .timeline-container{
         width: 90%;
     }
+
+    .time-head {
+        width: 100%;
+    }
 }
