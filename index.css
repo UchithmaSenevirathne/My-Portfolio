@@ -616,6 +616,8 @@
 .contact-forms div {
     display: flex;
     align-items: center;
+    background-color: #FF4522;
+    justify-content: center;
 }
 
 .contact-forms input {
@@ -624,4 +626,14 @@
     padding: 10px;
     border: 1px solid #bdbdbd;
     background: transparent;
+}
+
+.contact-forms div > input {
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.contact-forms div > i {
+    color: white;
 }
