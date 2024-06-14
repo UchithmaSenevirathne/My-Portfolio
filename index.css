@@ -592,6 +592,11 @@
     gap: 10px;
 }
 
+.con-list div > i {
+    font-size: 18px;
+    color: #FF4522;
+}
+
 .contact-forms {
     display: flex;
     flex-direction: column;
