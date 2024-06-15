@@ -389,7 +389,7 @@ header {
     padding-bottom: 100px;
     padding-left: 17%;
     padding-right: 17%;
-    gap: 60px;
+    gap: 100px;
 }
 
 .skills-container .text-content {
@@ -418,7 +418,7 @@ header {
 .skills-container .dark-image img {
     /* width: 100%; */
     width: 434px;
-    height: 700px;
+    height: 630px;
     object-fit: contain;
 
 }
