@@ -19,6 +19,68 @@
     justify-content: center;
     width: 300px;
     align-items: center;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: calc(var(--animation-order) * 0.2s);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.allWorks .item-work:nth-child(1) {
+    --animation-order: 1;
+}
+
+.allWorks .item-work:nth-child(2) {
+    --animation-order: 2;
+}
+
+.allWorks .item-work:nth-child(3) {
+    --animation-order: 3;
+}
+
+.allWorks .item-work:nth-child(4) {
+    --animation-order: 4;
+}
+
+.allWorks .item-work:nth-child(5) {
+    --animation-order: 5;
+}
+
+.allWorks .item-work:nth-child(6) {
+    --animation-order: 6;
+}
+
+.allWorks .item-work:nth-child(7) {
+    --animation-order: 7;
+}
+
+.allWorks .item-work:nth-child(8) {
+    --animation-order: 8;
+}
+
+.allWorks .item-work:nth-child(9) {
+    --animation-order: 9;
+}
+
+.allWorks .item-work:nth-child(10) {
+    --animation-order: 10;
+}
+
+.allWorks .item-work:nth-child(11) {
+    --animation-order: 11;
+}
+
+.allWorks .item-work:nth-child(12) {
+    --animation-order: 12;
 }
 
 .item-work img {
